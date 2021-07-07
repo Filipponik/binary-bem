@@ -1,0 +1,35 @@
+.footer {
+    padding: 50px 0px;
+    background: #3c3c3c;
+    &__logo {
+        display: block;
+        margin: 0px auto 41px auto;
+    }
+    &__menu {
+        display: block;
+        margin: 0px auto 34px auto;
+        width: 260px;
+    }
+    &__menu-container {
+        margin: 0px auto 34px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center
+    }
+    &__menu-element {
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #a4a4a4;
+    }
+    &__copyright {
+        font-family: 'PT Sans';
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #6c6c6c;
+        text-align: center;
+    }
+}

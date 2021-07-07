@@ -1,0 +1,38 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+@import "about.scss";
+@import "header.scss";
+@import "portfolio.scss";
+@import "partners.scss";
+@import "contact.scss";
+@import "footer.scss";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: Lato;
+	user-select: none;
+}
+
+.title {
+	font-size: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 8.95px;
+	position: relative;
+	text-align: center;
+	&:after {
+		content: '';
+		position: absolute;
+		width: 80px;
+		bottom: 0;
+		height: 1px;
+		left: 50%;
+		background-color: #000;
+		margin: 0px 0px 0px -40px;
+	}
+}

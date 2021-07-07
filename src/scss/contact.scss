@@ -1,0 +1,119 @@
+.contact {
+    padding: 183px 0px 102px 0px;
+    &__title {
+        margin: 0px 0px 120px 0px;
+        padding: 0px 0px 46px 0px;
+    }
+    &__columns {
+        margin: auto;
+        width: 717px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__form {
+        width: 383px;
+        margin: 0;
+    }
+    &__flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        & > div {
+            width: 161px;
+        }
+    }
+    &__form-label {
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #000000;
+        margin: 0px 0px 19px 0px;
+
+    }
+    &__form-field {
+        border-top: 1px solid #000; 
+        width: 161px;
+        height: 35px;
+        background-color: #f8f7f7;
+        margin-bottom: 75px;
+        padding: 10px;
+    }
+    &__form-textarea {
+        width: 383px;
+        max-width: 383px;
+        min-width: 383px;
+        height: 118px;
+        min-height: 118px;
+        margin-bottom: 42px;
+    }
+    &__text {
+        word-wrap: normal;
+        width: 252px;
+    }
+    &__label {
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+    &__name {
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+    &__socials {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-flow: 0;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    &__facebook {
+        border: 2px solid #000;
+        padding: 6px ;
+        text-align: center;
+        width: 29px;
+        height: 29px;
+        min-width: min-content;
+        border-radius: 9999px;
+        margin-right: 12px;
+    }
+    &__linkedin {
+        border: 2px solid #000;
+        padding: 6px;
+        text-align: center;
+        width: 29px;
+        height: 29px;
+        min-width: min-content;
+        border-radius: 9999px;
+    }
+    &__email {
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 700;
+        color: #000;
+    }
+    &__form-send {
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #000;
+        text-align: center;
+        padding-bottom: 15px;
+        background: #fff;
+        padding: 1em 0 1em 1em;
+        display: block;
+        margin: 0px 0px 0px auto;
+
+    }
+}

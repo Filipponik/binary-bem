@@ -1,0 +1,84 @@
+.header {
+    background: center/cover no-repeat url("../assets/header/bg_header_743.png");
+    display: flex;
+    flex-direction: column;
+    &__logo {
+        margin: 165px auto 159px auto;
+    }
+    &__phrase {
+		text-align: center;
+        font-size: 34px;
+        line-height: 40px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: #fff;
+    }
+    &__small-phrase {
+        position: relative;
+        margin-bottom: 278px;
+		text-align: center;
+        font-size: 26px;
+        line-height: 40px;
+        font-weight: 400;
+        text-transform: none;
+        letter-spacing: 0.16em;
+        color: #fff;
+        &:after {
+            content: '';
+            position: absolute;
+            width: 104px;
+            bottom: 0;
+            height: 2px;
+            top: 49px;
+            left: 50%;
+            background-color: #fff;
+            margin: 49px 0px 0px -52px;
+        }
+    }
+    &__readmore {
+		display: flex;
+		align-items: center;
+        flex-direction: column;
+    }
+    &__readmore-text {
+        text-transform: uppercase;
+		text-align: center;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: 0.06em;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 16px 35px;
+        margin: auto auto 75px auto;
+        width: 182px;
+    }
+    &__readmore-arrow {
+        margin: auto auto 153px auto;
+    }
+}
+.navmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__container {
+        padding: 22px 0px 24px 0px;
+        width: 450px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+    }
+    &__element {
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #3c3c3c;
+        &_active {
+            font-weight: 700;
+            color: #ada074;
+        }
+    }
+}

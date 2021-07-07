@@ -1,0 +1,22 @@
+.partners {
+    background: bottom/cover no-repeat url(../assets/partners/bg_header_copy_884.png);
+    height: 400px;
+    &__title {
+        padding-top: 100px;
+        margin-bottom: 95px;
+        text-align: center;
+        font-size: 30.4px;
+        line-height: 1.2;
+        font-weight: 300;
+        letter-spacing: 0.06em;
+        color: #ffffff;
+    }
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 650px;
+        margin: auto;
+    }
+}
