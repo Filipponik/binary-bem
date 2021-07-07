@@ -1,4 +1,5 @@
 
+
 # Page of Binary company
 
 ![Logo](https://user-images.githubusercontent.com/44286080/124791614-e2c8f600-df54-11eb-8f48-4c00bfd92f3e.png)
@@ -28,17 +29,9 @@
 
 ## Screenshots
 
-Скриншоты разбиты по разделам
+Скриншот всей страницы
 
-![Header](https://user-images.githubusercontent.com/44286080/124790159-9b8e3580-df53-11eb-879f-599ba757c06d.png)
-
-![About](https://user-images.githubusercontent.com/44286080/124790992-54547480-df54-11eb-8143-3c61e628dcd1.png)
-
-![Portfolio](https://user-images.githubusercontent.com/44286080/124790476-dc864a00-df53-11eb-84d1-2e0fd85944f4.png)
-
-![Partners](https://user-images.githubusercontent.com/44286080/124790758-1bb49b00-df54-11eb-98f1-ccbdce3b916a.png)
-
-![Contact&Footer](https://user-images.githubusercontent.com/44286080/124790864-35ee7900-df54-11eb-95b9-590c0c62a495.png)
+![Screenshot](https://user-images.githubusercontent.com/44286080/124793868-173db180-df57-11eb-85ea-d5a2062faf7e.png)
 
 ## Project setup
 ```
