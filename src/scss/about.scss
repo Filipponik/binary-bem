@@ -20,6 +20,7 @@
 		text-align: center;
 		line-height: 25.89px;
 		margin: auto;
+		padding: 0 2em;
 	}
 	&__row {
 		display: flex;
@@ -57,5 +58,20 @@
 		text-align: center;
 		line-height: 25.89px;
 		margin: auto;
+	}
+	@media screen and (max-width: $sm) {
+		&__icon {
+			width: 46px;
+			height: 46px;
+			border-radius: 50%;
+			padding: 30px;
+		}
+		&__title {
+			font-size: 16px;
+		}
+		&__text {
+			font-size: 10px;
+		}
+		
 	}
 }

@@ -1,11 +1,8 @@
-// Файл обнуляющих стилей
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+
 @import "nullstyle.scss";
-@import "about.scss";
-@import "header.scss";
-@import "portfolio.scss";
-@import "partners.scss";
-@import "contact.scss";
-@import "footer.scss";
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
@@ -25,6 +22,7 @@ body {
 	letter-spacing: 8.95px;
 	position: relative;
 	text-align: center;
+	padding: 0 1em;
 	&:after {
 		content: '';
 		position: absolute;
@@ -36,3 +34,23 @@ body {
 		margin: 0px 0px 0px -40px;
 	}
 }
+
+
+@media screen and (max-width: $md) {
+	.title {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: $sm) {
+	.title {
+		font-size: 20px;
+	}
+}
+
+@import "header.scss";
+@import "about.scss";
+@import "portfolio.scss";
+@import "partners.scss";
+@import "contact.scss";
+@import "footer.scss";

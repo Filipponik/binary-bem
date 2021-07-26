@@ -13,10 +13,17 @@
     }
     &__list {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 650px;
+        max-width: 650px;
         margin: auto;
+        padding: 0 2em;
+        & > img {
+            @media screen and (max-width: $sm) {
+                width: 4vh;                
+            }
+        }
     }
 }

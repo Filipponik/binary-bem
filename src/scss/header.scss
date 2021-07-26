@@ -1,18 +1,20 @@
 .header {
+    max-height: 100vh;
     background: center/cover no-repeat url("../assets/header/bg_header_743.png");
     display: flex;
+    padding: 0 0 153px 0;
     flex-direction: column;
     &__logo {
-        margin: 165px auto 159px auto;
+        margin: calc((1/12) * 100vh) auto;
     }
     &__phrase {
-		text-align: center;
-        font-size: 34px;
         line-height: 40px;
         font-weight: 900;
-        text-transform: uppercase;
         letter-spacing: 0.16em;
         color: #fff;
+        &:after {
+            width: 0;
+        }
     }
     &__small-phrase {
         position: relative;
@@ -28,18 +30,19 @@
             content: '';
             position: absolute;
             width: 104px;
-            bottom: 0;
+            bottom: -50px;
             height: 2px;
-            top: 49px;
             left: 50%;
             background-color: #fff;
-            margin: 49px 0px 0px -52px;
+            margin: 0px 0px 0px -52px;
         }
     }
     &__readmore {
 		display: flex;
 		align-items: center;
         flex-direction: column;
+        width: 190px;
+        margin: 0 auto;
     }
     &__readmore-text {
         text-transform: uppercase;
@@ -53,9 +56,6 @@
         padding: 16px 35px;
         margin: auto auto 75px auto;
         width: 182px;
-    }
-    &__readmore-arrow {
-        margin: auto auto 153px auto;
     }
 }
 .navmenu {
@@ -79,6 +79,38 @@
         &_active {
             font-weight: 700;
             color: #ada074;
+        }
+    }
+}
+
+
+@media screen and (max-width: $sm) {
+    .header {
+        max-height: 100vh;
+        &__logo {
+            margin: calc((1/12) * 100vh) auto;
+        }
+        &__phrase {
+        }
+        &__small-phrase {
+            margin: 0 0 100px 0;
+            font-size: 20px;
+            &:after {
+                bottom:-20px;
+            }
+        }
+        &__readmore-text {
+            margin: 0 0 30px 0;
+        }   
+    }
+    
+    .navmenu {
+        &__container {
+            padding: 22px calc(10px + (30 - 10) * ((100vw - 320px) / (576 - 320)));
+            width: 100%;
+        }
+        &__element {
+            font-size: 12px;
         }
     }
 }

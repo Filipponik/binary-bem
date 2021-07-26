@@ -2,7 +2,7 @@
     <div>
         <div class="header">
             <img class="header__logo" src="../assets/header/layer_33_copy_2_859.png" alt="">
-            <h1 class="header__phrase">Clear, smart, attractive design</h1>
+            <h1 class="title header__phrase">Clear, smart, attractive design</h1>
             <h2 class="header__small-phrase">for your app, logo, website</h2>
             <a href="#about" class="header__readmore">
                 <p class="header__readmore-text">Read More</p>
