@@ -1,8 +1,16 @@
 .contact {
     padding: 183px 1em 102px 1em;
+    @media screen and (max-width: $sm) {
+        padding: 60px 1em;
+    }
+
     &__title {
         margin: 0px 0px 120px 0px;
         padding: 0px 0px 46px 0px;
+        @media screen and (max-width: $sm) {
+            margin: 0 0 50px 0;
+            padding: 0 0 30px 0;
+        }
     }
     &__columns {
         margin: auto;
@@ -12,7 +20,11 @@
         flex-wrap: wrap;
         justify-content: space-between;
         @media screen and (max-width: $md) {
+            width: 383px;
+        }
+        @media screen and (max-width: $sm) {
             width: 280px;
+            // width: 383px;
         }
     }
     &__form {

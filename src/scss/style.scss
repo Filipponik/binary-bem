@@ -9,10 +9,15 @@ $lg: 992px;
 
 html {
 	scroll-behavior: smooth;
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 body {
 	font-family: Lato;
 	user-select: none;
+	width: 100%;
+	max-width: 100%;
 }
 
 .title {
